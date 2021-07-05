@@ -1,0 +1,18 @@
+{
+  "name": "dancepanda",
+  "version": "1.0.0",
+  "description": "Best dance website in the world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr. Arindam Panda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "moongoose": "0.0.5",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}

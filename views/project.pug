@@ -1,0 +1,43 @@
+doctype html 
+html
+    head 
+        title DancePanda.in 
+        style 
+            include ../static/styl.css
+    body 
+        //- navbar 
+        nav.navi 
+            //- img(src="./logo.jpg" alt="OOps!")
+            ul 
+                li #[a(href="/") Home ]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class-Info]
+                li #[a(href="/") About Us]
+                li #[a(href="/") Contact Us]
+            //- a(Class='button', href='https://www.facebook.com/profile.php?id=100008612885256')Contact us 
+            //- button(type="submit"), Contact Us
+        section#introsec 
+            div#big Welcome to Panda Dance Academy
+            div#small Nachega India... Tavi to badega India 
+        section#missionsec 
+            h2 Our Mission 
+            div.card 
+                h3  Be the next star 
+                p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum numquam, magni ducimus, inventore qui cumque recusandae et dolor, quaerat ut explicabo. Commodi, voluptates quis obcaecati hic impedit ut sequi quibusdam?
+            div.card 
+                h3  Dance like you Do! 
+                p  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam recusandae ducimus ea iure eius quos sapiente veniam voluptatem ut reprehenderit similique molestiae voluptate quasi tempora veritatis, animi et unde culpa?
+            div.card 
+                h3 Expert Teachers 
+                p  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatem molestias, eius libero ut esse? Qui nemo dolores doloribus quisquam placeat perspiciatis repellendus rerum. Itaque tenetur unde ratione ab consequuntur.
+        section#sponcerssec 
+            h2 Our Sponcers 
+            div.clients
+                img(src="../static/jio.png", alt="Loading...",class="client-items")
+                img(src="../static/ibm.png", alt="Loading...", class="client-items")
+                img(src="/static/lg.png", alt="Loading...",class="client-items")
+                img(src="../static/samsung.png", alt="Loading...",class="client-items")
+        footer  
+            |  Copyright &copy; www.DancePanda.in | All rights reserved! 
+        script 
+            include ../static/script.js  
