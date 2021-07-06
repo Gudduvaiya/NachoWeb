@@ -4,7 +4,8 @@
   "description": "Best dance website in the world",
   "main": "app.js",
   "engines": {
-    "node": "12.22.1"
+    "node": "12.22.1",
+    "npm": "6.14.12"
     },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
