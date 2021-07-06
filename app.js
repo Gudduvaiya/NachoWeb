@@ -5,7 +5,7 @@ const path = require("path")
 const app = exp()
 const mon = require("mongoose")
 mon.connect(`mongodb://localhost/DancePanda`, { useNewUrlParser: true, useUnifiedTopology: true })
-const port = 5001
+const port = process.env.PORT || 5001
 const lchost = '127.0.0.1'
 
 //Express specific stuffs
